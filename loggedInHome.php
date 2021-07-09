@@ -8,7 +8,7 @@
 
 	$scenario = 0;
 		//matching the password on sql
-		$db_handle = mysql_connect("localhost", "f1424808_Admin", "86cba5b1") or die(mysql_error());
+		$db_handle = mysql_connect("localhost", "f1424808_Admin", "*****") or die(mysql_error());
 			//echo "Connected to MySQL<br/>";
 		$db_found = mysql_select_db("f1424808_Users") or die(mysql_error());
 			//echo "Connected to Database";
